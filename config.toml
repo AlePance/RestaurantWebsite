@@ -1,0 +1,44 @@
+baseURL = "https://Pizzeria_Genzianella.it"
+languageCode = "en-us"
+title = "Ristorante Pizzeria Genzianella"
+theme = "hugo-casper3"
+[params]
+	title = "Pizzeria Genzianella"
+	subtitle = "Lodrino"
+	cover = "/genzianella_NG3.jpg"
+	facebook = "https://www.facebook.com/Ristorante-Pizzeria-Genzianella-di-Amelia-Bettinsoli-778519238889557"
+	logo = ""
+	author = "Alessandro"
+	authorLocation = "Brescia, Italy"
+	pageNotFoundTitle = "404 - Page not found"
+
+[menu]
+
+	[[menu.main]]
+		name = "Home"
+		weight = 1
+		url = "/"
+
+	[[menu.main]]
+		name = "Pizzeria"
+		weight = 2
+		url = "/post/Pizzeria"
+
+	[[menu.main]]
+		name = "Ristorante"
+		weight = 3
+		url = "/post/Ristorante"
+	
+	[[menu.main]]
+		name = "dove trovarci"
+		weight = 4
+		url = "/post/Contattaci"
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+	
+
+
+
+
